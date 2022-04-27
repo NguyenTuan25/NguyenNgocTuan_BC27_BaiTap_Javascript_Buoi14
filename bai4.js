@@ -31,3 +31,6 @@ function edge() {
       typeEl.innerHTML = "Đây là tam giác nhọn";
     }
   }
+  // B1:DOM tới các input và lấy value
+  // B2:Dựa vào các value in ra kết quả là loại tam giác gì.
+  // B3:Hiển thị kết quả ra màn hình

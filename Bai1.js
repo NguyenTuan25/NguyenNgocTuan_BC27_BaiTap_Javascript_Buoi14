@@ -7,7 +7,6 @@ function accenDing() {
   ketQua.style.display = "block";
   if (numberOneEl == "" || numberTwoEl == "" || numberThreeEl == "") {
     resultEl.innerHTML = "bạn chưa nhập số liệu";
-    
   } else if (numberOneEl > numberTwoEl && numberTwoEl > numberThreeEl) {
     resultEl.innerHTML = numberThreeEl + "," + numberTwoEl + "," + numberOneEl;
   } else if (
@@ -33,24 +32,31 @@ function accenDing() {
   } else {
     resultEl.innerHTML = numberTwoEl + "," + numberOneEl + "," + numberThreeEl;
   }
-
-  // if(numberOneEl < numberTwoEl && numberOneEl < numberThreeEl){
-  //     if(numberTwoEl<numberThreeEl){
-  //         resultEl.innerHTML=numberOneEl + "," +numberTwoEl + "," + numberThreeEl
-  //     }
-  //     if(numberTwoEl>numberThreeEl){
-  //         resultEl.innerHTML=numberOneEl + "," +numberThreeEl + "," + numberTwoEl
-  //     }
-  // }
-  // let array = [];
-  // array.push(parseInt(numberOneEl));
-  // array.push(parseInt(numberTwoEl));
-  // array.push(parseInt(numberThreeEl));
-  // // console.log(array,"array")
-  // array.sort(function (a, b) {
-  //     if (a > b) return 1;
-  //     if (a < b) return -1;
-  //     return 0;
-  // });
-  // resultEl.innerHTML = array;
 }
+// B1: DOM tới các input và lấy value 
+// B2: Dựa vào các value in ra kết quả theo thứ tự tăng dần
+// B3: Hiển thị kết quả ra màn hình 
+
+
+
+
+
+// if(numberOneEl < numberTwoEl && numberOneEl < numberThreeEl){
+//     if(numberTwoEl<numberThreeEl){
+//         resultEl.innerHTML=numberOneEl + "," +numberTwoEl + "," + numberThreeEl
+//     }
+//     if(numberTwoEl>numberThreeEl){
+//         resultEl.innerHTML=numberOneEl + "," +numberThreeEl + "," + numberTwoEl
+//     }
+// }
+// let array = [];
+// array.push(parseInt(numberOneEl));
+// array.push(parseInt(numberTwoEl));
+// array.push(parseInt(numberThreeEl));
+// // console.log(array,"array")
+// array.sort(function (a, b) {
+//     if (a > b) return 1;
+//     if (a < b) return -1;
+//     return 0;
+// });
+// resultEl.innerHTML = array;

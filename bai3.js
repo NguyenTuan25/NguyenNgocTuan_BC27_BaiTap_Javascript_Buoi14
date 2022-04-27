@@ -24,3 +24,7 @@ function parity() {
     }
     // if (oneEl % 2 > 0 & twoEl % 2 == 0 & threeEl % 2 > 0)
   }
+
+  // B1:DOM tới các input và lấy value
+  // B2:Dựa vào các value in ra kết quả có bao nhiêu số chẵn lẻ
+  // B3:Hiển thị kết quả ra màn hình

@@ -21,3 +21,6 @@ function user() {
     resultEl.style.fontWeight = "bold"
   }
 }
+// B1: DOM tới các input và lấy value
+// B2: Dựa vào các value in ra kết quả theo ký hiệu 
+// B3: Hiển thị kết quả ra màn hình
